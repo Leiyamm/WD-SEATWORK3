@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -11,61 +17,13 @@ header {
     background-color: #333;
     color: white;
     width: 100%;
-    position: fixed;
-    top: 0;
     z-index: 1000; /* Ensure the header is above other elements */
 }
 
-/* Hero Section */
-.hero {
-    height: 100vh;
-    background: url('../img/hero-background.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.hero-content {
-    max-width: 800px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 1.5rem;
-    line-height: 1.6;
-}
-
-.hero-content .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #333;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.hero-content .button:hover {
-    background-color: #555;
-}
-
-/* Main Section */
 .main {
     display: flex;
     width: 100%;
-    height: calc(100vh - 80px); /* Adjust for header height */
-    margin-top: 80px; /* Adjust for header height */
+    height: calc(100vh - 40px); /* Adjust for header height */
 }
 
 .section {
