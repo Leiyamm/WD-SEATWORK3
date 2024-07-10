@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #063c79;
+    color: rgb(107, 202, 226);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: background 0.3s ease;
+    text-align: center;
+}
+
+.feature h2, .feature p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.feature:hover h2, .feature:hover p {
+    opacity: 1;
+}
+
+.feature1 {
+    background: url('../img/monumenta1.jpg') no-repeat center center/cover;
+}
+
+.feature1:hover {
+    background: url('../img/monumenta1.gif') no-repeat center center/cover;
+}
+
+.feature2 {
+    background: url('../img/monumenta2.jpg') no-repeat center center/cover;
+}
+
+.feature2:hover {
+    background: url('../img/monumenta2.gif') no-repeat center center/cover;
+}
+
+.feature3 {
+    background: url('../img/monumenta3.jpg') no-repeat center center/cover;
+}
+
+.feature3:hover {
+    background: url('../img/monumenta3.gif') no-repeat center center/cover;
+}
