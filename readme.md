@@ -1,38 +1,98 @@
-# Feature Display - Seatwork 4
+<a name="readme-top">
+
+<br/>
+
+<br />
+<div align="center">
+  <a href="https://github.com/Leiyamm">
+    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  </a>
+  <h3 align="center">Feature Display</h3>
+</div>
+<div align="center">
+  This project showcases distinct design layouts for different features using pure HTML and CSS. The website includes multiple pages for demonstration and emphasizes layout design.
+</div>
+
+<br />
+
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+---
+
+<br />
+<br />
+
+<!-- TODO: If you want to add more layers for your readme -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+      <ol>
+        <li>
+          <a href="#key-components">Key Components</a>
+        </li>
+        <li>
+          <a href="#technology">Technology</a>
+        </li>
+      </ol>
+    </li>
+    <li>
+      <a href="#rules-and-principles">Rules and Principles</a>
+    </li>
+    <li>
+      <a href="#resources">Resources</a>
+    </li>
+  </ol>
+</details>
+
+---
 
 ## Overview
+This project is a feature display website on two brands that I currently am a part of. The purpose of this website is to display the three main features of the aforementioned brands. The landing page will allow you to choose which brand's features you would like to see. Clicking on a button will direct you to the features display that also shows GIFs of what you will see in those brands. The technology used in this website is HTML, CSS and JavaScript.
 
-This project showcases distinct design layouts for different features using pure HTML and CSS. The website includes multiple pages for demonstration and emphasizes layout design.
+### Key Components
+- MultiPage Website
+- Parallax transition
+- Promotional Content
 
-## Structure
+### Technology
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-- **Landing Page**: Features a title "Seatwork 4" and two halves, each linking to a feature page.
-- **Feature Pages**: Includes two feature pages for Monumenta and Bludshot, each showcasing three unique features.
+## Rules and Principles
+1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
+2. Do not rename any .html files; always use 'index.html' as the filename.
+3. File Structure to follow
 
-## Deployment
+```
+WD-ProjectName
+└─ assets
+|   └─ css
+|   |   └─ style.css
+|   └─ img
+|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   └─ js
+|       └─ script.js
+└─ pages
+|  └─ pageName
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ index.html
+└─ readme.md
+```
 
-This website is deployed using GitHub Actions and can be accessed [here](deployment-link).
+## Resources
 
-## References
-
-- Font Awesome
-- Google Fonts
-- Bootstrap
-- Material UI
-- TailWind
-
-## How to Use
-
-1. Clone the repository.
-2. Open `index.html` in a web browser to view the landing page.
-3. Navigate to the feature pages via the buttons on the landing page.
-4. Replace placeholder images and texts as needed.
-
-## References to the Selected Brands
-
-1. Monumenta
-- https://playmonumenta.com/
-- https://www.youtube.com/@monumentammo
-2. Bludshot
-- https://www.facebook.com/bludshott
-- https://www.instagram.com/bludshot__/
+<!-- TODO: Add References -->
+| Title | Purpose | Link |
+|-|-|-|
+| Monumenta Website | Background images for Monumenta's Features Display as well as Landing Page Background was extracted from this website | https://playmonumenta.com/ |
+| Bludshot Page | Photographs from Bludshot's Facebook Page were used as Background images for both the Landing Page and Bludshot's Features Display | https://www.facebook.com/bludshott |
