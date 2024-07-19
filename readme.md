@@ -53,7 +53,7 @@ This project is a feature display website on two brands that I currently am a pa
 
 ### Key Components
 - MultiPage Website
-- Parallax transition
+- Hover Displays
 - Promotional Content
 
 ### Technology
