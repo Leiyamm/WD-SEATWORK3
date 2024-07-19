@@ -5,7 +5,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/Leiyamm">
-    <img href="https://yt3.googleusercontent.com/TLf-WL-LKMuEeMXd4wjRK_tey-gkhxOt5zPFOS-bzeG_ruGio12Ynl0UU9_oppLLbDFUYsWIpJ4=s900-c-k-c0x00ffffff-no-rj" alt="Nyebe" width="130" height="100">
   </a>
   <h3 align="center">Feature Display</h3>
 </div>
@@ -91,7 +90,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Monumenta Website | Background images for Monumenta's Features Display as well as Landing Page Background was extracted from this website | https://playmonumenta.com/ |
